@@ -1,7 +1,6 @@
 <template>
     <div class="custom-tooltip" v-bind:style="{ backgroundColor: color }">
          <p><span>{{ data.athlete }}</span></p>
-         <p><span>Country: </span>{{ data.country }}</p>
      </div>
 </template>
 
@@ -11,7 +10,6 @@
         return {
             color: null,
             athlete: null,
-            country: null,
         };
     },
     beforeMount() {
